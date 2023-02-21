@@ -1,0 +1,18 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    max-width: 400px;
+}
+
+.game-over {
+    color: white;
+    display: none;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 250px;
+}

@@ -57,6 +57,7 @@ window.onload = () => {
             if (trail[i].x === positionX && trail[i].y === positionY) {
                 speedX = 0;
                 speedY = 0;
+                tail = 5;
             }
         }
 
